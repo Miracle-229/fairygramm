@@ -1,0 +1,139 @@
+body {
+  background: linear-gradient(45deg, #fc466b, #3f5efb);
+}
+
+.home {
+  h1 {
+    text-align: center;
+    color: white;
+    font-family: "Latte";
+  }
+  .header {
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img {
+      width: 50px;
+    }
+  }
+  .logo_block {
+    display: flex;
+    align-items: center;
+    h1 {
+      color: black;
+    }
+  }
+  .login_block {
+    display: flex;
+    align-items: center;
+  }
+  .content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .post {
+    margin-top: 50px;
+    padding: 5px 15px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    max-width: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  .post_header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .post_image {
+    img {
+      width: 500px;
+      object-fit: cover;
+    }
+  }
+  .post_buttons {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    button {
+      background-color: transparent;
+      border: none;
+      font-size: 25px;
+      cursor: pointer;
+      img {
+        width: 25px;
+      }
+    }
+    :nth-child(2) {
+      img {
+        width: 35px;
+      }
+    }
+  }
+  .link_post {
+    color: black;
+  }
+  .Modal {
+    display: grid;
+    grid-template-columns: 8fr 4fr;
+  }
+  .Modal_Img {
+    width: 90vh;
+    height: auto;
+  }
+  .Modal_Comment {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    textarea {
+      height: 50px;
+      margin-left: 10px;
+      border: 1px solid black;
+      resize: none;
+    }
+  }
+  .Modal_Comment_Logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    span {
+      font-size: 35px;
+    }
+    img {
+      width: 25%;
+    }
+  }
+  .Modal_Comment_Text {
+    display: flex;
+    flex-direction: column;
+    button {
+      width: 20%;
+      margin: 0 auto;
+      margin-top: 20px;
+      display: block;
+      img {
+        width: 55%;
+      }
+    }
+  }
+  .Modal_Comment_Field {
+    padding-left: 30px;
+    max-height: 200px;
+    overflow-y: scroll;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+  .Modal_Comment_Comments {
+    display: flex;
+    align-items: center;
+    button {
+      margin-left: 35px;
+    }
+  }
+}

@@ -1,0 +1,53 @@
+.loginheader {
+  h1 {
+    text-align: center;
+    color: white;
+    font-family: "Latte";
+    cursor: pointer;
+  }
+  .header {
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img {
+      width: 50px;
+    }
+  }
+  .logo_block {
+    display: flex;
+    align-items: center;
+    h1 {
+      color: black;
+    }
+  }
+  .login_block {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  .login_dropdown {
+    display: block;
+    position: absolute;
+    right: 47px;
+    top: 85px;
+    background-color: rgba(255, 255, 255, 0.3);
+    a{
+        color: white;
+    }
+    ul,
+    li {
+      list-style: none;
+      text-align: center;
+      padding: 0px 10px 0px 10px;
+      cursor: pointer;
+    }
+    li {
+      padding-top: 10px;
+    }
+    li:hover{
+        text-decoration:underline;
+    }
+  }
+}
