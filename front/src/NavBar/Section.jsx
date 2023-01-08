@@ -13,7 +13,7 @@ const Section = (props) => {
         <ul>
           <li>
             <Link activeClassName="activeLink" to="/registr">
-              Registration
+              Registration 123
             </Link>
           </li>
           <li>
